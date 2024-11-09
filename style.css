@@ -1,0 +1,56 @@
+
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0,0.7),rgba(0, 0, 0,0.7)) , url(./loading-animation.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.title{
+    margin:20px 0 100px 0;
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: 800;
+    text-align: center;
+    text-shadow: 0 0 5px aqua,0 0 10px aqua,0 0 15px aqua,0 0 20px aqua;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    text-shadow: 0 0 5px rgb(127, 255, 144),0 0 10px rgb(63, 73, 70),0 0 15px rgb(221, 255, 127),0 0 20px rgb(74, 78, 77);
+}
+
+.container .h2{
+    color: black;
+    text-shadow: 0 0 5px lightyellow,0 0 10px lightyellow,0 0 15px lightyellow,0 0 20px lightyellow;
+}
+
+#quote{
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 40px 0 0 0;
+    color: beige;
+    padding-bottom: 100px;
+
+}
+#quoteButton{
+    padding: 20px 40px;
+    font-size: 20px;
+    color: white;
+    background-color: blue;
+    border: none;
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .3s;
+}
+#quoteButton.green{
+    background-color: green;
+}
